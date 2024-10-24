@@ -2,6 +2,7 @@
 
 import React from 'react'
 import dynamic from 'next/dynamic'
+import '../styles/globals.css';
 
 // QuantumSmartCityDePIN コンポーネントを動的にインポートし、SSRを無効にする
 const QuantumSmartCityDePIN = dynamic(
